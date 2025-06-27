@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+#navbar{
+    background-color: darkslategrey !important;   
+}
+
+.navbar .navbar-brand{
+    font-size: 22px;
+    color: goldenrod;
+    font-weight: 800;
+}
+
+ul li{
+    border-bottom: 2px  transparent;
+}
+ul li:hover{
+    border-bottom: 2px solid goldenrod;
+}
+
+/* ! Main */
+#home{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)
+     !important;
+}
+
+#home{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ourpage{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.home-img{
+    border-radius: 10px;
+}
+
+#places{
+
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #bf1a1a 100%)  !important;
+}
+
+.card{
+ background-color: darkgray;
+ cursor: pointer; 
+ opacity: 0.9;
+}
+
+.card:hover{
+    background-color: cadetblue;
+    transition: .5s;
+    box-shadow: .3svb black;
+    opacity: 1;
+    transform: .3s;
+    transform: scale(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+
+#btn-1{
+    border: 2px beige solid;
+    transition: background 0.3s, transform 0.3s;
+}
+#btn-1:hover {
+    background: #0dcaf0;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ! Footer */
+
+.footer{
+    background-color: darkslategrey !important;
+   
+}
+.h5{
+    color: goldenrod !important;
+}
+
+/* Testimonials */
+#testimonials {
+    background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+    padding: 40px 0 30px 0;
+    border-radius: 24px;
+    margin-bottom: 20px;
+}
+
+#testimonials h2 {
+    color: #0d6efd;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#testimonials .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    gap: 16px 0;
+}
+
+#testimonials .card {
+    border-left: 5px solid #0dcaf0;
+    background: rgba(255,255,255,0.35);
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    padding: 18px 16px 14px 16px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(2px);
+}
+
+#testimonials .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+    background: rgba(255,255,255,0.48);
+}
+
+#testimonials .card-body {
+    padding: 0;
+}
+
+#testimonials .card-text {
+    font-style: italic;
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 32px;
+}
+
+#testimonials .card-text::before {
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #0dcaf0;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    opacity: 0.7;
+}
+
+#testimonials .card-title {
+    color: #0d6efd;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    #testimonials {
+        padding: 24px 0 16px 0;
+        margin-bottom: 10px;
+    }
+    #testimonials .card {
+        margin-bottom: 10px;
+        padding: 12px 8px 10px 8px;
+    }
+}
